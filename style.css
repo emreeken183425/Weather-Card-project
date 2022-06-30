@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Gantari:ital,wght@1,100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card{
+    width: 250px;
+    box-shadow: 0 20px 30px #00000010;
+    display: flex;justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 20px 0 20px;
+    border-radius: 10px;
+    border: 0.5px solid #ff8a4247;cursor: pointer ;
+    transition: border 0.5s linear;
+    box-shadow: 0.5s linear;
+}
+.card:hover{
+    box-shadow: 0 20px 30px #ff8a4243 ;
+    border: 0.5px  solid #ff8a42 ;
+}
