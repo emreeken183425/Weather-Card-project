@@ -25,3 +25,39 @@ body{
     box-shadow: 0 20px 30px #ff8a4243 ;
     border: 0.5px  solid #ff8a42 ;
 }
+img{
+    width: 50px;
+}
+h2{
+    font-size: 3rem;
+}
+
+h3,h4{
+    padding: 5px 0 0 0 ;
+    color: #ff8a42;
+}
+.value{
+    width: 150px;
+    background: #ff8a42;
+    display: flex;justify-content: center;
+    flex-direction:row-reverse;
+    position: relative;
+    color: #ffff;
+    border-radius: 5px;
+    margin-top: 60px ;
+}
+.value img{
+    position: absolute;
+    right: -20px;
+    top: -50px;
+}
+.footer_box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: #ffffff;
+    box-shadow: 0 0 20px #00000016;
+    border:0.5px solid #ff8a42 ;
+    border-bottom: 0;
+    transition: border 0.5s linear ;
+}
