@@ -10,7 +10,8 @@ body{
     height: 100vh;
 }
 .card{
-    width: 250px;
+    width: 300px;
+    height: 300px;
     box-shadow: 0 20px 30px #00000010;
     display: flex;justify-content: center;
     align-items: center;
@@ -20,6 +21,7 @@ body{
     border: 0.5px solid #ff8a4247;cursor: pointer ;
     transition: border 0.5s linear;
     box-shadow: 0.5s linear;
+    gap: 5px;
 }
 .card:hover{
     box-shadow: 0 20px 30px #ff8a4243 ;
@@ -54,10 +56,52 @@ h3,h4{
 .footer_box{
     width: 100%;
     display: flex;
-    justify-content: space-between;
-    background: #ffffff;
+    justify-content:flex-start;
+    background-color:  #bd2b2b;
     box-shadow: 0 0 20px #00000016;
     border:0.5px solid #ff8a42 ;
     border-bottom: 0;
     transition: border 0.5s linear ;
+    margin-top: 5px;
 }
+
+
+.footer_box {
+    margin-top: 5px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: firebrick;
+    transition:  0.5s linear ;
+    gap: 5px;
+    
+}
+.value:hover{
+    background-color: pink;
+    cursor: pointer;
+    box-shadow: #ff8a4243;
+    transition: 1s;
+   }
+
+   .left{
+    display:inline-block;
+    background-color: #21def7;
+    width: 50px;
+    float: left;
+    padding: 10px;
+    margin: 2px;
+    text-align: center;
+   }
+   .right{
+    display: inline-block;
+    text-align: center;
+    color: white;
+    background-color: rgb(139, 243, 42);
+    width: 50px;
+    padding: 10px;
+    margin: 2px;
+    color: white;
+
+   }
